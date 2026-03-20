@@ -26,7 +26,7 @@ export const About = () => {
                 From developing custom software systems to installing cutting-edge security solutions, we bring a comprehensive approach to every project. our expertise spans across web development, mobile applications, and hardware installations.
               </p>
               <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-                I believe in building lasting relationships with our clients by delivering quality work, maintaining open communication, and ensuring complete satisfaction with every project.
+                we believe in building lasting relationships with our clients by delivering quality work, maintaining open communication, and ensuring complete satisfaction with every project.
               </p>
             </div>
 

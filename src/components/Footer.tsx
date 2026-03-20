@@ -55,11 +55,19 @@ export const Footer = () => {
                 rashidsaidi780@gmail.com
               </a>
               <a
-                href="tel:+255123456789"
+                href="tel:+255758018277"
                 className="flex items-center gap-3 text-gray-300 hover:text-primary-yellow transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                +255758018277 / +255123456789
+                +255758018277
+              </a>
+              
+              <a
+                href="tel:+255679673448"
+                className="flex items-center gap-3 text-gray-300 hover:text-primary-yellow transition-colors"
+              >
+                <Phone className="w-5 h-5" />
+                +255679673448
               </a>
             </div>
           </div>

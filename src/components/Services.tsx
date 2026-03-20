@@ -15,7 +15,7 @@ const services: Service[] = [
   {
     id: 'system-dev',
     title: 'System Development',
-    description: 'Custom software solutions tailored to your business needs. From enterprise applications to automation tools, I build robust systems that drive efficiency.',
+    description: 'Custom software solutions tailored to your business needs. From enterprise applications to automation tools, we build robust systems that drive efficiency.',
     icon: <Code className="w-12 h-12" />,
   },
   {
@@ -27,7 +27,7 @@ const services: Service[] = [
   {
     id: 'web-dev',
     title: 'Website Design & Development',
-    description: 'Modern, responsive websites that convert. From landing pages to full e-commerce solutions, I create web experiences that work.',
+    description: 'Modern, responsive websites that convert. From landing pages to full e-commerce solutions, we create web experiences that work.',
     icon: <Globe className="w-12 h-12" />,
   },
   {
