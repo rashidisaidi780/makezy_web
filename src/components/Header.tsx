@@ -28,7 +28,6 @@ export const Header = () => {
           <div className="text-2xl font-bold">
             <span className="text-primary-yellow">MAKEZY</span>
             <span className="text-primary-blue dark:text-white"> TECH</span>
-            <span className="text-primary-yellow-500"> INNOVATION</span>
           </div>
 
           <div className="hidden md:flex items-center gap-8">
