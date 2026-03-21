@@ -16,18 +16,20 @@ export const Footer = () => {
     url: 'https://instagram.com/makezy_tech',
     color: 'hover:bg-red-500',
   },
-  {
-    name: 'Facebook',
-    icon: <Facebook className="w-5 h-5" />,
-    url: 'https://facebook.com/makezytechpage',
-    color: 'hover:bg-blue-600',
-  },
-  {
-    name: 'Twitter',
-    icon: <Twitter className="w-5 h-5" />,
-    url: 'https://twitter.com/makezytech',
-    color: 'hover:bg-sky-500',
-  },
+  //========== //
+  //{
+   // name: 'Facebook',
+   // icon: <Facebook className="w-5 h-5" />,
+    //url: 'https://facebook.com/makezytechpage',
+   // color: 'hover:bg-blue-600',
+  //},
+ // {
+    //name: 'Twitter',
+   // icon: <Twitter className="w-5 h-5" />,
+   // url: 'https://twitter.com/makezytech',
+   // color: 'hover:bg-sky-500',
+ // },
+  //============//
 ];
 
   return (
