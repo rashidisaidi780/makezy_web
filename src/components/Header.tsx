@@ -27,7 +27,7 @@ export const Header = () => {
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold">
             <span className="text-primary-yellow">MAKEZY</span>
-            <span className="text-primary-blue dark:text-white"> TECH INNOVATION</span>
+            <span className="text-primary-blue dark:text-white"> TECH</span>
           </div>
 
           <div className="hidden md:flex items-center gap-8">
