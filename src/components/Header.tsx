@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Moon, Sun, Menu, X } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
+import logo from '../assets/makezy_logo.png';
 
 export const Header = () => {
   const { theme, toggleTheme } = useTheme();
@@ -25,11 +26,21 @@ export const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-40 bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-md">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold">
-            <span className="text-primary-yellow">MAKEZY</span>
-            <span className="text-primary-blue dark:text-white"> TECH</span>
+
+          {/* LOGO + NAME */}
+          <div className="flex items-center gap-3 text-2xl font-bold">
+            <img
+              src={logo}
+              alt="makezy logo"
+              className="w-12 h-12 object-cover rounded-full shadow-md"
+            />
+            <div>
+              <span className="text-primary-yellow">MAKEZY</span>
+              <span className="text-primary-blue dark:text-white"> TECH</span>
+            </div>
           </div>
 
+          {/* DESKTOP NAV */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <button
@@ -54,6 +65,7 @@ export const Header = () => {
             </button>
           </div>
 
+          {/* MOBILE MENU */}
           <div className="md:hidden flex items-center gap-4">
             <button
               onClick={toggleTheme}
@@ -81,6 +93,7 @@ export const Header = () => {
           </div>
         </div>
 
+        {/* MOBILE DROPDOWN */}
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4 space-y-3 border-t border-gray-200 dark:border-gray-700 pt-4">
             {navLinks.map((link) => (
