@@ -20,7 +20,7 @@ export const About = () => {
                 Professional Background
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
-                It's Makezy tech innovation, a dedicated software developers and technology service providers with extensive experience in creating innovative digital solutions. My journey in technology has equipped us with the skills to transform ideas into reality.
+                It's Makezy tech innovation, a dedicated software developers and technology service providers with extensive experience in creating innovative digital solutions. Our journey in technology has equipped us with the skills to transform ideas into reality.
               </p>
               <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">
                 From developing custom software systems to installing cutting-edge security solutions, we bring a comprehensive approach to every project. our expertise spans across web development, mobile applications, and hardware installations.
@@ -33,7 +33,7 @@ export const About = () => {
             <div className="space-y-6">
               <div className="bg-gradient-to-br from-primary-yellow to-secondary-orange p-8 rounded-xl shadow-lg text-white">
                 <Target className="w-12 h-12 mb-4" />
-                <h4 className="text-2xl font-bold mb-3">My Mission</h4>
+                <h4 className="text-2xl font-bold mb-3">Our Mission</h4>
                 <p className="text-white/90">
                   To provide reliable, innovative, and affordable digital and technical solutions that empower businesses and individuals to succeed in the modern world.
                 </p>
@@ -60,7 +60,7 @@ export const About = () => {
           </div>
 
           <div className="bg-gradient-to-r from-primary-blue to-primary-blue/90 dark:from-gray-900 dark:to-primary-blue rounded-xl p-12 text-center text-white">
-            <h3 className="text-3xl font-bold mb-4">Why Choose Me?</h3>
+            <h3 className="text-3xl font-bold mb-4">Why Choose Us?</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
               <div>
                 <div className="text-4xl font-bold text-primary-yellow mb-2">3+</div>
