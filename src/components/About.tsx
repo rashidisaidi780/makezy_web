@@ -63,15 +63,15 @@ export const About = () => {
             <h3 className="text-3xl font-bold mb-4">Why Choose Us?</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
               <div>
-                <div className="text-4xl font-bold text-primary-yellow mb-2">3+</div>
+                <div className="text-4xl font-bold text-primary-yellow mb-2">2+</div>
                 <p className="text-gray-200">Years Experience</p>
               </div>
               <div>
-                <div className="text-4xl font-bold text-primary-yellow mb-2">30+</div>
+                <div className="text-4xl font-bold text-primary-yellow mb-2">20+</div>
                 <p className="text-gray-200">Projects Completed</p>
               </div>
               <div>
-                <div className="text-4xl font-bold text-primary-yellow mb-2">100%</div>
+                <div className="text-4xl font-bold text-primary-yellow mb-2">99%</div>
                 <p className="text-gray-200">Client Satisfaction</p>
               </div>
             </div>

@@ -145,11 +145,13 @@ export const ContactForm = ({ selectedService = '' }: ContactFormProps) => {
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-primary-yellow focus:border-transparent transition-all"
                 >
                   <option value="">Select a service</option>
-                  <option value="System Development">System Development</option>
-                  <option value="Mobile App Development">Mobile App Development</option>
-                  <option value="Website Design & Development">Website Design & Development</option>
-                  <option value="CCTV Camera Installation">CCTV Camera Installation</option>
-                  <option value="Car Tracking Device Installation">Car Tracking Device Installation</option>
+                  <option value="System Development">Systems </option>
+                  <option value="Mobile App Development">Mobile Apps </option>
+                  <option value="Website Design & Development">Websites</option>
+                  <option value="CCTV Camera Installation">CCTV Cameras</option>
+                  <option value="Car Tracking Device Installation">GPS for Tracking</option>
+                  <option value="Car Tracking Device Installation">Smart Doorbell and Locks</option>
+                  <option value="Car Tracking Device Installation">Electrical Fencing</option>
                   <option value="Other IT & Technology Services">Other IT & Technology Services</option>
                 </select>
               </div>
