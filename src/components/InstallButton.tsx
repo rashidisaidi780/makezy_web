@@ -80,7 +80,7 @@ export const InstallButton = ({ className = '' }: InstallButtonProps) => {
               Add Makezy Tech to your app screen?
             </h2>
             <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">
-              Continue to open your browser&apos;s installation prompt.
+              Click Continue to install or cancel to stay.
             </p>
             <div className="mt-6 flex justify-end gap-3">
               <button
