@@ -1,4 +1,5 @@
 import { ArrowRight, MessageCircle } from 'lucide-react';
+import { InstallButton } from './InstallButton';
 
 interface HeroProps {
   onViewServices: () => void;
@@ -50,6 +51,8 @@ const handleWhatsAppClick = () => {
               <MessageCircle className="w-5 h-5" />
               Contact via WhatsApp
             </button>
+
+            <InstallButton className="group px-8 py-4 bg-white text-primary-blue font-semibold rounded-lg hover:bg-gray-100 transition-all duration-300 flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:-translate-y-1" />
           </div>
         </div>
       </div>

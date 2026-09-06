@@ -42,7 +42,7 @@ export const Footer = () => {
               Software Developers & Tech Services Providers
             </p>
             <p className="text-gray-400 text-sm">
-              Delivering innovative solutions for your digital needs.
+              Quality, Innovation & Trust.
             </p>
           </div>
 

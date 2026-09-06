@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Moon, Sun, Menu, X } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 import logo from '../assets/makezy_logo.png';
+import { InstallButton } from './InstallButton';
 
 export const Header = () => {
   const { theme, toggleTheme } = useTheme();
@@ -63,6 +64,8 @@ export const Header = () => {
                 <Sun className="w-5 h-5 text-yellow-400" />
               )}
             </button>
+
+            <InstallButton className="px-4 py-2 rounded-lg bg-primary-yellow text-primary-blue hover:bg-primary-yellow/90 transition-colors font-semibold flex items-center gap-2" />
           </div>
 
           {/* MOBILE MENU */}
@@ -105,6 +108,7 @@ export const Header = () => {
                 {link.name}
               </button>
             ))}
+            <InstallButton className="px-4 py-2 rounded-lg bg-primary-yellow text-primary-blue hover:bg-primary-yellow/90 transition-colors font-semibold flex items-center gap-2" />
           </div>
         )}
       </nav>
