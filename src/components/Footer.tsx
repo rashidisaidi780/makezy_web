@@ -61,7 +61,7 @@ export const Footer = () => {
                 className="flex items-center gap-3 text-gray-300 hover:text-primary-yellow transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                +255758018277
+                +255 758 018 277
               </a>
               
               <a
@@ -69,7 +69,7 @@ export const Footer = () => {
                 className="flex items-center gap-3 text-gray-300 hover:text-primary-yellow transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                +255679673448
+                +255 679 673 448
               </a>
             </div>
           </div>
