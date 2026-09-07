@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Moon, Sun, Menu, X } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
-import logo from '../assets/makezy_logo.png';
+import logo from '../assets/Makezy_logo.png';
 import { InstallButton } from './InstallButton';
 
 export const Header = () => {
@@ -32,7 +32,7 @@ export const Header = () => {
           <div className="flex items-center gap-3 text-2xl font-bold">
             <img
               src={logo}
-              alt="makezy logo"
+              alt="Makezy logo"
               className="w-12 h-12 object-cover rounded-full shadow-md"
             />
             <div>
